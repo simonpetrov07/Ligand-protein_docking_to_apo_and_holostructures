@@ -20,11 +20,11 @@ Docking/
 ### Files preparation
 If you are using Windows OS, it's needed to first download WSL and Biopython.
 
-Firstly run the set of commands from  `01.0_fetch_structures_run.sh` in wsl console. You need to specify the path to the [Docking](Docking) and to the [Docking_and_docking_preparation](Docking_and_docking_preparation) folder. This will create folders holo_cif and apo_cif, that will contain all the .cif structures from the dataset. These structures will be needed further for extraction of ligands and for docking itself.
+Firstly run the set of commands from  `01.0_fetch_structures_run.sh` in wsl console. You need to specify the path to the [Docking](Docking_and_docking_preparation/Docking) and to the [Docking_and_docking_preparation](Docking_and_docking_preparation) folder. This will create folders holo_cif and apo_cif, that will contain all the .cif structures from the dataset. These structures will be needed further for extraction of ligands and for docking itself.
 
-Secondly run the set of commands from `02.0_dockbox_calculations_run_v2`.You need to specify the path to the [Docking](Docking) and to the [Docking_and_docking_preparation](Docking_and_docking_preparation) folder. This will create the docking_parameters folder that contains all the docking parameters needed for the further docking.
+Secondly run the set of commands from `02.0_dockbox_calculations_run_v2`.You need to specify the path to the [Docking](Docking_and_docking_preparation/Docking) and to the [Docking_and_docking_preparation](Docking_and_docking_preparation) folder. This will create the docking_parameters folder that contains all the docking parameters needed for the further docking.
 
-Thirdly run the set of commands from `03.0_extract_ligands_run_v3`.You need to specify the path to the [Docking](Docking) and to the [Docking_and_docking_preparation](Docking_and_docking_preparation) folder. This will extract all the ligands from the holostructures and save them to the ligands folder. these ligands will be further used in docking.
+Thirdly run the set of commands from `03.0_extract_ligands_run_v3`.You need to specify the path to the [Docking](Docking_and_docking_preparation/Docking) and to the [Docking_and_docking_preparation](Docking_and_docking_preparation) folder. This will extract all the ligands from the holostructures and save them to the ligands folder. these ligands will be further used in docking.
 
 ### Docking
 After the preparation you should have all the files in the structure above.
@@ -41,5 +41,5 @@ docker run --rm -u "$(id -u):$(id -g)" -v "/path/to/Docking:/data" apo-holo-dock
 Docker will go through all the .JSON docking_parameters in a row and conduct the docking.
 
 ### Output
-At the end, you should have in [Docking_output](Docking_output) two subfolders: APO with resaults of docking to apostructures and HOLO with resaults of docking to holostructures. An outupt is a folder e.g. /1a4u that contains 1a4u_output.pdbqt. In this file are 9 models with the affinity between a protein structures binding site and a ligand (Example of outputs are in folder [Output_examples](Output_examples))
+At the end, you should have in Docking_output two subfolders: APO with resaults of docking to apostructures and HOLO with resaults of docking to holostructures. An outupt is a folder e.g. /1a4u that contains 1a4u_output.pdbqt. In this file are 9 models with the affinity between a protein structures binding site and a ligand (Example of outputs are in folder [Output_examples](Output_examples))
 
