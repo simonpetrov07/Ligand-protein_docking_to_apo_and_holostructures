@@ -1,0 +1,109 @@
+REMARK  Name = /tmp/MDC_1oib.pdb
+REMARK  22 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C1_2  and  C5_11
+REMARK    3  A    between atoms: C2_3  and  C2_4
+REMARK    4  A    between atoms: C2_3  and  C3_6
+REMARK    5  A    between atoms: C2_3  and  N4_10
+REMARK    6  A    between atoms: C3_5  and  O3_7
+REMARK    7  A    between atoms: C3_5  and  N4_10
+REMARK    8  A    between atoms: C3_5  and  C5_12
+REMARK    9  A    between atoms: C3_6  and  O3_8
+REMARK   10  A    between atoms: O3_7  and  C6_16
+REMARK   11  A    between atoms: N4_9  and  C5_12
+REMARK   12  A    between atoms: N4_9  and  O5_14
+REMARK   13  A    between atoms: C5_11  and  O5_13
+REMARK   14  A    between atoms: O5_14  and  C6_15
+REMARK   15  A    between atoms: C6_15  and  C7_17
+REMARK   16  A    between atoms: C7_17  and  N8_18
+REMARK   17  A    between atoms: C9_19  and  C13_24
+REMARK   18  A    between atoms: C17_30  and  N17_31
+REMARK   19  A    between atoms: N17_31  and  C19_33
+REMARK   20  A    between atoms: N17_31  and  C21_35
+REMARK   21  A    between atoms: C19_33  and  C20_34
+REMARK   22  A    between atoms: C21_35  and  C22_36
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C7  MDC A 323      10.586  32.890  29.301  0.00  0.00    +0.150 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N8  MDC A 323      10.507  33.699  28.064  0.00  0.00    -0.199 N 
+ATOM      3  C9  MDC A 323      10.473  35.172  28.187  0.00  0.00    +0.271 C 
+ATOM      4  O9  MDC A 323      10.811  35.595  29.298  0.00  0.00    -0.268 OA
+ATOM      5  H   MDC A 323      10.478  33.266  27.180  0.00  0.00    +0.000 HD
+BRANCH   3   9
+ATOM      6  O11 MDC A 323       9.423  37.002  24.756  0.00  0.00    -0.421 OA
+ATOM      7  C12 MDC A 323       9.693  35.962  25.685  0.00  0.00    +0.350 A 
+ATOM      8  O12 MDC A 323       9.536  34.827  25.258  0.00  0.00    -0.244 OA
+ATOM      9  C13 MDC A 323      10.143  36.235  27.129  0.00  0.00    +0.131 A 
+ATOM     10  C14 MDC A 323      10.297  37.517  27.500  0.00  0.00    +0.014 A 
+ATOM     11  C24 MDC A 323      10.028  38.694  26.561  0.00  0.00    +0.035 A 
+ATOM     12  C28 MDC A 323       9.568  38.351  25.139  0.00  0.00    +0.150 A 
+ATOM     13  C15 MDC A 323      10.172  39.972  26.916  0.00  0.00    +0.004 A 
+ATOM     14  C16 MDC A 323       9.876  41.094  25.901  0.00  0.00    +0.015 A 
+ATOM     15  C17 MDC A 323       9.473  40.823  24.641  0.00  0.00    +0.051 A 
+ATOM     16  C18 MDC A 323       9.311  39.332  24.255  0.00  0.00    +0.052 A 
+BRANCH  15  17
+ATOM     17  N17 MDC A 323       9.184  41.882  23.650  0.00  0.00    -0.307 N 
+BRANCH  17  18
+ATOM     18  C21 MDC A 323       8.392  41.658  22.432  0.00  0.00    +0.091 C 
+ATOM     19  C22 MDC A 323       8.449  40.304  21.815  0.00  0.00    +0.023 C 
+ENDBRANCH  17  18
+BRANCH  17  20
+ATOM     20  C19 MDC A 323       9.834  43.234  23.726  0.00  0.00    +0.091 C 
+ATOM     21  C20 MDC A 323       9.382  43.958  22.425  0.00  0.00    +0.023 C 
+ENDBRANCH  17  20
+ENDBRANCH  15  17
+ENDBRANCH   3   9
+ENDBRANCH   1   2
+BRANCH   1  22
+ATOM     22  C6  MDC A 323      11.890  32.600  29.091  0.00  0.00    +0.192 C 
+BRANCH  22  23
+ATOM     23  O5  MDC A 323      12.135  32.489  28.403  0.00  0.00    -0.264 OA
+BRANCH  23  24
+ATOM     24  N4  MDC A 323      12.590  32.520  27.784  0.00  0.00    -0.079 NA
+ATOM     25  H   MDC A 323      11.807  32.501  27.130  0.00  0.00    +0.000 HD
+BRANCH  24  26
+ATOM     26  C5  MDC A 323      12.895  32.462  27.463  0.00  0.00    +0.169 C 
+BRANCH  26  27
+ATOM     27  C3  MDC A 323      12.994  31.354  27.177  0.00  0.00    +0.210 C 
+BRANCH  27  28
+ATOM     28  O3  MDC A 323      12.844  30.233  27.651  0.00  0.00    -0.335 OA
+ATOM     29  C6  MDC A 323      13.259  30.066  27.934  0.00  0.00    +0.176 C 
+ENDBRANCH  27  28
+BRANCH  27  30
+ATOM     30  N4  MDC A 323      13.536  31.265  27.136  0.00  0.00    -0.188 NA
+ATOM     31  H   MDC A 323      14.007  31.722  27.917  0.00  0.00    +0.000 HD
+BRANCH  30  32
+ATOM     32  C2  MDC A 323      13.992  31.715  26.070  0.00  0.00    +0.121 C 
+BRANCH  32  33
+ATOM     33  C3  MDC A 323      14.385  31.382  26.054  0.00  0.00    +0.200 C 
+BRANCH  33  34
+ATOM     34  O3  MDC A 323      14.997  30.410  25.675  0.00  0.00    -0.219 OA
+ATOM     35  H   MDC A 323      15.686  30.685  25.051  0.00  0.00    +0.000 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+BRANCH  32  36
+ATOM     36  C2  MDC A 323      14.495  32.875  25.651  0.00  0.00    +0.096 C 
+BRANCH  36  37
+ATOM     37  C1  MDC A 323      13.884  33.270  25.978  0.00  0.00    -0.087 C 
+ATOM     38  C1  MDC A 323      13.414  33.598  26.586  0.00  0.00    -0.055 C 
+BRANCH  38  39
+ATOM     39  C5  MDC A 323      12.877  33.657  27.049  0.00  0.00    +0.258 C 
+BRANCH  39  40
+ATOM     40  O5  MDC A 323      12.620  34.809  27.375  0.00  0.00    -0.205 OA
+ATOM     41  H   MDC A 323      13.387  35.197  27.824  0.00  0.00    +0.000 HD
+ENDBRANCH  39  40
+ENDBRANCH  38  39
+ENDBRANCH  36  37
+ENDBRANCH  32  36
+ENDBRANCH  30  32
+ENDBRANCH  27  30
+ENDBRANCH  26  27
+ENDBRANCH  24  26
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+TORSDOF 19
