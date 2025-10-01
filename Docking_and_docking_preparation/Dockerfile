@@ -1,4 +1,4 @@
-# Created by: Kamila Riedlová for DODO 
+# Created by: Kamila Riedlová and Lukáš Polák for DODO 
 # File: Dockerfile
 # stage 1 - base image with tools
 FROM ubuntu:24.04 AS base
