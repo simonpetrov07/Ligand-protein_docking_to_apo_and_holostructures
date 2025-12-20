@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 # Authors:
 #   Šimon Petrov (writing, primary implementation, testing)
 #   Parts of the implementation were assisted by ChatGPT5.
