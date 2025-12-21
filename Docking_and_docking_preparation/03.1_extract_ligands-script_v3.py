@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 # Authors:
 #   Šimon Petrov (primary implementation, testing)
-#   Kamila Riedlová (design/review, adjustments & extensions, testing)
+#   Kamila Riedlová (writing, design/review, adjustments & extensions, testing)
 #   Parts of the implementation were assisted by ChatGPT5.
 #
 # File: 03.1_extract_ligands-script.py
