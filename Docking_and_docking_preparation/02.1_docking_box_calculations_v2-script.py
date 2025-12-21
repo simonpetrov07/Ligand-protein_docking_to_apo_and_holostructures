@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 # Authors:
-#   Student Name <student.email@example.com> (primary implementation, testing)
+#   Šimon Petrov <petrov.simon@zak.prirodniskola.cz> (primary implementation, testing)
 #   Kamila Riedlová <kamila.riedlova@matfyz.cuni.cz> (implementation review, adjustmen and extensions, testing)
 #   Parts of the implementation were assisted by ChatGPT5.
 #
